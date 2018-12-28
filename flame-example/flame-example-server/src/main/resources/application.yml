@@ -1,0 +1,16 @@
+server:
+  port: ${random.int[10000,19999]}
+flame:
+  registrys:
+    flame:
+      host: 192.168.111.153
+      port: 6379
+      type: redis
+  registry:
+      host: 192.168.111.154
+      port: 6379
+      type: redis
+  protocols:
+    flame:
+      port: ${random.int[10000,19999]}
+      server: netty

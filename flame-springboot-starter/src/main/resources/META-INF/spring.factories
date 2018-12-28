@@ -1,0 +1,12 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.rain.flame.starter.config.autoconfiguration.FlameCommonAutoConfiguration,\
+com.rain.flame.starter.config.autoconfiguration.DefaultPropertiesAutoConfiguration,\
+com.rain.flame.starter.config.autoconfiguration.SerializationAutoConfiguration,\
+com.rain.flame.starter.config.autoconfiguration.CodecAutoConfiguration,\
+com.rain.flame.starter.config.autoconfiguration.ServiceReferenceAutoConfiguration,\
+com.rain.flame.starter.config.autoconfiguration.PrototolAutoConfiguration,\
+com.rain.flame.starter.config.autoconfiguration.RpcRequestInterceptorAutoConfiguration,\
+com.rain.flame.starter.config.autoconfiguration.RpcInvokerInterceptorAutoConfiguration,\
+com.rain.flame.starter.config.autoconfiguration.RegistryAutoConfiguration  
+

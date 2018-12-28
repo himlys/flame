@@ -1,0 +1,15 @@
+server:
+  port: 9000
+flame:
+  registrys:
+    flame:
+      host: 192.168.111.154
+      port: 6379
+      type: redis
+  registry:
+    host: 192.168.111.153
+    port: 6379
+    type: redis
+  protocols:
+    flame:
+      server: netty
